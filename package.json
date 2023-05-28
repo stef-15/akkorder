@@ -11,7 +11,8 @@
     },
     "scripts": {
         "build": "tsc -d",
-        "test": "jest"
+        "test": "jest",
+        "prepare": "npm run build # https://stackoverflow.com/a/73896790",
     },
     "devDependencies": {
         "@babel/core": "^7.14.0",
