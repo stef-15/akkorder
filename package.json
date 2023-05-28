@@ -12,7 +12,7 @@
     "scripts": {
         "build": "tsc -d",
         "test": "jest",
-        "prepare": "npm run build # https://stackoverflow.com/a/73896790",
+        "prepare": "npm run build # https://stackoverflow.com/a/73896790"
     },
     "devDependencies": {
         "@babel/core": "^7.14.0",
