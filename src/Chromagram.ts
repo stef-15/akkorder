@@ -18,7 +18,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 //=======================================================================
-import FFT from "fft.js";
+const FFT = require('fft.js'); // import FFT from "fft.js";
 
 //=======================================================================
 /** A class for calculating a Chromagram from input audio
